@@ -13,7 +13,7 @@ function! s:VSetSearch(cmdtype)
   let @/ = '\<'.@/.'\>'
 endfunction
 
-xnoremap * :<C-U>call <SID>VSetSearch('/')<CR>/<C-R>=@/<CR><CR>
-xnoremap # :<C-U>call <SID>VSetSearch('?')<CR>?<C-R>=@/<CR><CR>
-xnoremap g* :<C-U>call <SID>VSetSearchNoBoundary('/')<CR>/<C-R>=@/<CR><CR>
-xnoremap g# :<C-U>call <SID>VSetSearchNoBoundary('?')<CR>?<C-R>=@/<CR><CR>
+xnoremap * :<C-U>call <SID>VSetSearch('/')<CR>//<CR>
+xnoremap # :<C-U>call <SID>VSetSearch('?')<CR>??<CR>
+xnoremap g* :<C-U>call <SID>VSetSearchNoBoundary('/')<CR>//<CR>
+xnoremap g# :<C-U>call <SID>VSetSearchNoBoundary('?')<CR>??<CR>
