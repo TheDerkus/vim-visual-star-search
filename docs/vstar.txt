@@ -1,24 +1,24 @@
-*vim-vstar.txt*       Visual Star
+*vstar.txt*       Visual Star
 
-vim-vstar                                                      *vim-vstar*
+vstar                                                      *vstar*
 
-INTRODUCTION                    |vim-vstar-introduction|
-INSTALLATION                    |vim-vstar-installation|
+INTRODUCTION                    |vstar-introduction|
+INSTALLATION                    |vstar-installation|
 
 =============================================================================
-INTRODUCTION                                        *vim-vstar-introduction*
+INTRODUCTION                                        *vstar-introduction*
 
 Makes the `*` and `#` commands work like they should in visual mode, by
 searching for the word under the cursor. The `g*` and `g#` don't add the word
 boundaries to the search pattern.
 
 =============================================================================
-INSTALLATION                                        *vim-vstar-installation*
+INSTALLATION                                        *vstar-installation*
 
 Using Vundle <https://github.com/gmarik/vundle>:
 
 >
-        Bundle 'TheDerkus/vim-vstar'
+        Bundle 'TheDerkus/vstar.vim'
 
 =============================================================================
 
